@@ -14,7 +14,7 @@
 <footer id="colophon" class="site-footer">
 <!-- contains a nav menu and address -->
 <div class="container-fluid">
-    <h1 class="footer-header">Stay In Touch  pretty Please!</h1>
+    <h1 class="footer-header">Stay In Touch Pretty Please!</h1>
   <div class="container p-4 pb-0 text-center">
     <!-- Section: Social media -->
     <section class="mb-4">
