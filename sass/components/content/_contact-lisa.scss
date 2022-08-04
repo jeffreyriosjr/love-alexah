@@ -1,0 +1,22 @@
+.contact-lisa {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .contact-form {
+    width: auto;
+    
+    .contact {
+      width: 750px;
+      position: relative;
+    }
+
+    .ninja-form {
+      position: relative;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
