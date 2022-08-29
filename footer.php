@@ -13,44 +13,16 @@
 
 <footer id="colophon" class="site-footer">
 <!-- contains a nav menu and address -->
-<div class="container-fluid">
-    <h1 class="footer-header">Stay In Touch Pretty Please!</h1>
-  <div class="container p-4 pb-0 text-center">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="footer-btn btn  btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
-    </section>
+<div class="footer-all row">
+      <ul class="icon-section">
+      <li class="icon-links"><a href="https://www.facebook.com/SMYLE-Co-101844815983658/"><i class="fab fa-facebook-f"></i></a></li>
+      <li class="icon-links"><a href="https://www.instagram.com/smyle_co_/"><i class="fab fa-instagram"></i></a></li>
+      <li class="icon-links"><a href="https://www.instagram.com/smyle_co_/"><i class="fab fa-twitter"></i></a></li>
+      <li class="icon-links"><a href="https://www.instagram.com/smyle_co_/"><i class="fab fa-apple"></i></a></li>
+    </ul>
     <!-- Section: Social media -->
     	
     <div class="footer-all row">
-						<div class="col <?php if (!has_nav_menu('footer-community-menu')) echo " text-center"; ?>">
-							<?php
-							wp_nav_menu( array( 
-								'theme_location' => 'footer-menu', 
-								'container' => 'ul',
-								'menu_class' => 'footer-menu',
-								) ); 
-							?>
-						</div>
 						<?php if (has_nav_menu('footer-community-menu')):?>
 						<div class="col-lg-6">
                             <?php
